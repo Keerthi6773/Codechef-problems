@@ -1,0 +1,5 @@
+t = int(input())
+for _ in range(t):
+    r = int(input())
+    ICM = (r * 1000) // 2
+    print(ICM //5)

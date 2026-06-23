@@ -1,0 +1,11 @@
+t = int(input())
+for _ in range(t):
+    A, B = map(int,input().split())
+    first = 100 - A
+    second = 200 - (2* B)
+    if first < second:
+        print("FIRST")
+    elif first > second:
+        print("SECOND")
+    else:
+        print("BOTH")
